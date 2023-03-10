@@ -1,0 +1,21 @@
+$primary: rgb(124, 130, 156);
+$secondary: rgb(215, 244, 245);
+$body-color: rgb(47, 47, 47);
+$danger: rgb(228, 147, 53);
+$card-height: 100px;
+
+body {
+  width: 100%;
+  padding: 0;
+}
+
+main > div {
+  margin: 0.25rem 0.5rem;
+  border: rgb(114, 107, 107) 1px solid;
+  border-radius: 8px;
+}
+
+footer {
+  background-color: $light;
+  box-shadow: 0 50vh 0 50vh $light;
+}
