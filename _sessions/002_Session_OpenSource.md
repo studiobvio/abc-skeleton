@@ -9,8 +9,6 @@ categories:
 tags:
   - "Design Futuring"
   - "Commoning"
-  - "Solidarity"
-  - "Reciprocity"
 
 authors:
   - name: "Will Martin"
