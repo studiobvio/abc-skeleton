@@ -30,6 +30,8 @@ url: "https://studiobvio.github.io"
 twitter_username: studiobvio
 github_username: studiobvio
 
+repository: "studiobvio/abc-skeleton"
+
 # Build settings
 #theme: minima
 plugins:
@@ -38,7 +40,7 @@ plugins:
 
 sass:
   sass_dir: _sass
-  style: compressed
+  style: expanded
 
 destination: ./docs
 

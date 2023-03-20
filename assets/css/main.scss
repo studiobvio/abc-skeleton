@@ -1,5 +1,31 @@
 ---
 ---
 
-@import "bootstrap/bootstrap";
+// 1. Include functions first (so you can manipulate colors, SVGs, calc, etc)
+@import "bootstrap/functions";
+
+// 2. Include any default variable overrides here
+$primary: #89a55d;
+
+// 3. Include remainder of required Bootstrap stylesheets
+@import "bootstrap/variables";
+@import "bootstrap/mixins";
+@import "bootstrap/root";
+
+// 4. Include any optional Bootstrap CSS as needed
+@import "bootstrap/utilities";
+@import "bootstrap/reboot";
+@import "bootstrap/containers";
+@import "bootstrap/forms";
+@import "bootstrap/buttons";
+@import "bootstrap/transitions";
+@import "bootstrap/dropdown";
+@import "bootstrap/nav";
+@import "bootstrap/navbar";
+@import "bootstrap/card";
+
+// 5. Optionally include utilities API last to generate classes based on the Sass map in `_utilities.scss`
+@import "bootstrap/utilities/api";
+
+// 6. Additional custom code
 @import "base";
